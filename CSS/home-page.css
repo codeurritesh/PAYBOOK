@@ -1,0 +1,220 @@
+body{
+   
+   
+    
+}
+.collapse ul{
+    margin-right: 1px;
+}
+.collapse navbar-collapse
+{
+    margin-left: 600px;
+}
+.nav-link
+{
+    margin-top: 0px;
+    font-weight: bold;
+    color: black;
+}
+#ptext{
+    font-family: 'Bebas Neue', cursive;
+    
+font-family: 'Playfair Display', serif;
+text-shadow: 5px 3px 2px rgba(147, 150, 154, 1);
+
+}
+
+h5:hover{
+    color:grey;
+    border-bottom:1px black solid;
+    transition: 0.5s;
+}
+
+.text{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+   
+}
+#easy
+{
+    width: 100%;
+   
+}
+#bus
+{
+    font-size: large;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-left: 135px;
+    margin-top: 1px;
+}
+#ftext{
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 500%;
+    
+
+}
+.b{
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.562);
+    padding: 40px 20px 20px ;
+    display: flex;
+   
+}
+#bt{
+    color: rgba(255, 255, 255, 0.788);
+    margin-left: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 450%;
+}
+#lt
+{
+    color: white;
+    margin-left: 40px;
+    font-size: 160%;
+}
+#textcon{
+    width: 50%;
+}
+#g
+{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 450%;
+    font-weight: bold;
+
+}
+.gw
+{
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.Sec
+{
+    display: flex;
+    margin-top: 90px;
+    width: 100%;
+    background-color: rgba(82, 25, 136, 0.884);
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+#gs{
+    color:black;
+    font-size: 160%;
+    margin-top: 20px;
+   
+}
+.image{
+    width: 40%;
+    
+   
+}
+.image img{
+    width: 500px;
+    
+}
+.Dta
+{
+    width: 50%;
+    text-align: left;
+    
+
+}
+#set{
+margin-left: 80px;
+width:300px;
+margin-top: 80px;
+
+}
+#set:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+#text{ 
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 450%;
+    
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(9, 9, 238, 0.712);
+}
+.li{
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+.p1
+{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+   
+   
+}
+.ph:hover
+{
+transform: scale(1.3);
+transition: 2s;
+border-radius: 60px;
+}
+.p2
+{
+    background-color: rgba(0, 0, 255, 0.185);
+    margin-bottom: 100px;
+}
+#about
+{
+   
+    background-color: rgb(9, 1, 44);
+    height: 500px;
+    display: flex;
+   
+}
+#ph
+{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+  
+    color: white;
+    font-size: 450%;
+    
+}
+#data
+{
+  
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+
+
+}
+#para
+{
+color: white;
+font-size: 120%;
+}
+
+.i{
+    width: 20px;
+}
+.icon
+{
+    margin-top: 40px;
+    font-size: 140%;
+}

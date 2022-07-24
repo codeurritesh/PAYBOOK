@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PAYBOOK Records</title>
+    <link rel="stylesheet" href="../CSS/Firebase1.css">
+</head>
+<body >
+    
+   
+<div class="container">
+    <!-- <img src="../media/Form bg.jpg" alt=""> -->
+    <div class="box">
+        <h2 style="margin-bottom: 0px; margin-top: 30px; color:black ;">Transactions Details</h2>
+        
+        <form action="">
+            
+            <input type="text" class="tb" id="naam" placeholder="Enter your Name"  >
+            <input type="number" class="tb" id="number" placeholder="Enter your Mobile Number" required >
+           
+            <input type="text" class="tb" id="email" placeholder="Enter your Email Id"  >
+            <input type="number" class="tb" id="amount" placeholder="Add transaction Amount" >
+            <!-- <input type="Submit" value="You Gave" class="button" id="but1">
+            <input type="Submit" value="You Got" class="button" id="but2">
+            <input type="Submit" value="Delete" class="button" id="dbut"> -->
+                <div class="buttons">
+                    <button class="btn">Add Amount</button>
+                    
+                    <button class="btn">Update</button>
+                    
+                    <button class="btn">Delete</button>
+                </div>
+
+
+        </form>
+        <a href="./users1.html">
+        <button id="lu" class="btn1">List of Customers</button>
+        </a>
+    </div>
+    <div id="secondbox"> 
+        <h1>Let's Connect</h1>
+        <div id="bt"> Enter your Transactions Details</div>
+        <img  id="boy" src="../media/BOY.png" alt=""></IMG>
+   </div>
+<script type="module" src="../JS/firebaseconfig1.js"></script>
+        <script type="module" src="../JS/firebase1.js"></script>
+</body>
+</html>
