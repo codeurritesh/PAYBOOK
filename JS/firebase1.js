@@ -19,14 +19,26 @@ var emailbox = document.getElementById("email");
 
 var amountbox = document.getElementById("amount");
 
-function got(event)
-{
-    event.preventDefault();
-    readfromdata();
-    if (namev == "" || numbv == "" || emav == "" || amtv == "") {
-        alert("fields can not be blank");
+function got(event) {
+  event.preventDefault();
+  readfromdata();
+  const regex_pattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+
+  if (namev == "" || numbv == "" || emav == "" || amtv == "") {
+    alert("fields can not be blank");
+  } else
+    
+  if (!regex_pattern.test(emav)) {
+
+    alert("The email address is not valid");
+    } else
+  
+  
+    if (numbv < 1000000000 || numbv > 9999999999) {
+      alert("Enter correct mobile number");
     }
-    else {
+else {
         set(ref(db, "data/" + numbv),
             {
                 name: namev,
